@@ -1,0 +1,175 @@
+#header{
+    background-color: rgb(255, 187, 0);
+    height: 100px;
+}
+
+#logo{
+    font-family: Impact;
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+    margin-left: 10%;
+    position: absolute;
+    margin-top: 2%;
+}
+
+#inputok{
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+#inputok input{
+    border-radius: 3px;
+    border: none;
+    box-shadow: 1px 1px 2px 0;
+}
+#inputok input:focus{
+    outline: none;
+}
+
+
+#textarea-submit{
+    margin-top: 15px;
+    margin-left: 85px;
+}
+
+#textarea-submit input{
+    position: absolute;
+    margin-left: 15px;
+    height: 40px;
+    margin-top: 15px;
+    width: 65px;
+    border: none;
+    background-color: rgb(255, 187, 0);
+
+
+    color: white;
+    font-family: Impact;
+    font-size: small;
+    border-radius: 3px;
+}
+
+#textarea-submit-edit-page{
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#textarea-submit-edit-page input{
+    position: absolute;
+    margin-left: 15px;
+    height: 40px;
+    margin-top: 15px;
+    width: 65px;
+    border: none;
+    background-color: rgb(255, 187, 0);
+
+
+    color: white;
+    font-family: Impact;
+    font-size: small;
+    border-radius: 3px;
+}
+
+#textarea-submit-edit-page input:hover{
+    background-color: rgb(219, 161, 0);
+
+}
+
+#textarea-submit input:hover{
+    background-color: rgb(219, 161, 0);
+}
+
+#marka-list{
+    height: 400px;
+}
+
+textarea{
+    resize: none;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 1px 1px 2px 0;
+}
+textarea:focus{
+    outline: none;
+}
+
+
+#kiirat{
+    text-align: center;
+    background-color: rgba(238, 238, 238, 0.281);
+    height: fit-content;
+    padding-bottom: 20px;
+
+}
+
+#kozep{
+    background-color: rgb(255, 187, 0);
+    color: white;
+    font-family: Impact;
+    font-size: medium;
+    height: 30px;
+    border-radius: 3px;
+}
+#kozep p{
+    position: absolute;
+    margin-top: 3px;
+}
+
+#torles-button{
+    border: none;
+    background-color: tomato;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 4px;
+    width: 80px;
+    margin-right: 5px;
+}
+#torles-button:hover{
+    background-color: rgb(219, 64, 37);
+
+}
+
+.szerkeszt-button{
+    background-color: rgb(255, 187, 0);
+    padding: 5px 13px 5px 10px;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.szerkeszt-button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(219, 161, 0);
+}
+
+#leiras{
+    overflow-y: scroll;
+    min-height: 110px;
+    max-height: 110px;
+}
+
+.card-header{
+    background-color: rgba(226, 226, 226, 0.733);
+    margin-top: 20px;
+}
+.card-body{
+    background-color: white;
+}
+.card-footer{
+    background-color: rgba(226, 226, 226, 0.733);
+}
+
+#szerkesztes{
+    position: absolute;
+    left: 450px;
+    color: white;
+    top: 47px;
+    font-family: Impact;
+    font-size: 1.5rem;
+}
