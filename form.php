@@ -26,7 +26,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $arErr = "Az ár megadása kötelező.";
             }
             if($_POST["ar"] < 0){
-                $arErr = "Az ár nem lehet kisebb 0-nál."
+                $arErr = "Az ár nem lehet kisebb 0-nál.";
             }
             if(empty($_POST["uzemanyag"])){
                 $uzemanyagErr = "Az üzemanyag megadása kötelező.";
