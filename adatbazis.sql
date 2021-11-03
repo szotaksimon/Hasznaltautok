@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 03, 2021 at 12:05 AM
+-- Generation Time: Nov 03, 2021 at 11:36 PM
 -- Server version: 10.4.18-MariaDB
 -- PHP Version: 7.4.16
 
@@ -20,6 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `hasznaltautok`
 --
+CREATE DATABASE IF NOT EXISTS `hasznaltautok` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `hasznaltautok`;
 
 -- --------------------------------------------------------
 
